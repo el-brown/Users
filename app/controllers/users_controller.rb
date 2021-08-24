@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   #READ all users
   def index
     @user = User.all
-    render component: "Users", props: {users:@user}
+    render component: "Users", props: {users: @user}
   end
 
   #NEW user in memory but not in the database. Use this to create the new Form.
