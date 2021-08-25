@@ -9,7 +9,7 @@ const Users = (props) => {
           <h3>{user.name}</h3>
           <h4>{`Age ${user.age}`}</h4>
           <a href={`users/${user.id}`}style={{padding:"5px"}}>Show</a> 
-          <a href={`users/${user.id}`}style={{padding:"5px"}}>Edit</a> 
+          <a href={`users/${user.id}/edit`}style={{padding:"5px"}}>Edit</a> 
           <a href={`users/${user.id}`} data-method="delete">Delete </a>
         </div>
       );
